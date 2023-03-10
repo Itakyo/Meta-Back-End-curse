@@ -1,0 +1,78 @@
+body {
+    background-image:url(https://raw.githubusercontent.com/Itakyo/Coursera-Homeworks/main/Paisaje.jpg);
+    background-position:center;
+    background-size:  cover;
+    
+    color: black;
+    font-family: Tahoma;
+    font-size: 16px
+    
+    
+    
+  }
+   
+
+  form{
+    background-color:#f5f5dc;
+    opacity: 80%;
+  }     
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  
+  
+  fieldset {
+    border: 1px solid black;  
+    padding: 1rem 1rem 1rem 1rem;
+    border-bottom: 1px solid #3b3b4f;
+    border-top: 1px solid black
+    
+  }
+  
+  input, textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  legend{
+  
+    padding: 1rem 0 0 0;
+   
+   
+  
+  }
+  
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: gray;
+    border-color: white;
+    min-width: 300px;
+  }

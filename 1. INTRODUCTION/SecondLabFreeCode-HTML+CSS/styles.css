@@ -1,0 +1,95 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  header {
+    width: 100%;
+      height: flex ;
+      background-color: #F5F5DC;	
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  h1 {
+    color: #f1be32;
+      font-size: min(5vw, 1.2em);
+    text-align: center;
+  }
+  
+  
+  main{
+  background-image:url(https://raw.githubusercontent.com/Itakyo/Coursera-Homeworks/main/Paisaje.jpg);
+  background-size:  cover; 
+  background-position:center;
+  padding: 100px 10px 50px 10px;
+  justify-content: center;
+  
+  }
+  
+  #image{
+      max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 15px;
+  }
+  
+  
+  #tribute-info{
+    background-color:#F5F5DC;
+  }
+  
+  section {
+    width: 90%;
+    margin: 0 auto 10px auto;
+    max-width: 1000px;
+  }
+  
+  /*Configuracion de doble columna*/
+  
+  .column {
+    float: left;
+    padding: 12px;
+    min-height: 350px;
+    word-wrap: break-word;
+  }
+  .left{
+    width: 50%;  
+  }
+  .right{  
+    width: 50% 
+  }
+  
+  .columns:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px)  {
+    .column{
+      width:100%
+    }
+  }
+  
+  /*Configuracion de doble columna*/
+  
+  
+  footer {
+      background-color: #F5F5DC;
+      display: flex;
+      justify-content: center;
+    color: #2a2a40;
+  }
+  
+  address {
+    text-align: center;
+    padding: 0.3em;
+  }
+  
+  footer,
+  footer a {
+    color: #2a2a40;
+  }

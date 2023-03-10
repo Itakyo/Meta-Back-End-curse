@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id= "title">UNDERANIME</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <fieldset>
+
+      <label id="name-label">
+        NAME
+        <input required id="name" type="text" name="Name" placeholder="write your camplete name">
+      </label>
+
+      <label id="email-label">
+        EMAIL
+        <input required id="email" type="email" name="Email"placeholder="write your email adress">
+      </label>  
+
+      <label id="number-label">
+        AGE
+        <input required id="number" type="number" min="10" max="120" name="Age" placeholder="write your age">
+      </label>
+    </fieldset>
+
+    
+    <fieldset>
+      <label>
+      Do you accept terms and condition?
+        <select id="dropdown"> 
+         <option value="0">YES</option>
+         <option value="1">NO</option>
+        </select>
+      </label> 
+    </fieldset> 
+
+      <fieldset>
+      <legend>GENERO</legend>
+      <label><input type="radio" name="gender" class="inline" value ="1"/> HOMBRE</label>
+
+      <label><input type="radio" name="gender" class="inline" value ="2" /> MUJER</label>
+
+      </fieldset>
+
+ <fieldset>
+   <legend>GENEROS FAVORITOS</legend>
+     <label> <input type="checkbox" class="inline"  name="fname" value="1"> Accion</label>
+     <label> <input type="checkbox" class="inline"  name="fname" value="2"> Comedia</label>
+     <label> <input type="checkbox" class="inline"  name="fname" value="3"> Militar</label>
+     <label> <input type="checkbox" class="inline"  name="fname" value="4"> Gore</label>
+     <label> <input type="checkbox" class="inline"  name="fname" value="5"> Sic-fi</label>
+     <label> <input type="checkbox" class="inline"  name="fname" value="6"> Romance</label>
+</fieldset>
+
+<fieldset>
+  <legend>Comments</legend>
+    <textarea name="bio" rows="5" cols="47" placeholder="What if...you add"></textarea>
+</fieldset>
+
+ 
+  <input type="submit" id= "submit" value="Submit" />
+      
+
+
+
+    </form>    
+  </body>
+</html>
